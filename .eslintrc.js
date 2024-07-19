@@ -15,6 +15,7 @@ module.exports = {
     "sort-destructure-keys",
     "sort-keys-fix",
   ],
+  ignorePattenrs: ["babel.config.js"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
