@@ -9,7 +9,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "android:connect": "adb reverse tcp:8081 tcp:8081",
+    "list:ios-devices": "xcrun xctrace list devices",
+    "check-env:mobile": "npm run check-env:mobile"
   },
   "jest": {
     "preset": "jest-expo"
