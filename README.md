@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# Nx React Native Workspace Generator
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![npm version](https://badge.fury.io/js/nx-react-native-cli.svg)](https://www.npmjs.com/package/nx-react-native-cli)
 
-## Get started
+## 📦 Introduction
 
-1. Install dependencies
+This NPM library package allows you to effortlessly generate a Nx workspace with a React Native preset. It includes a carefully curated set of tools and libraries to streamline your development process.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- **TypeScript**: Strongly typed JavaScript for better code quality.
+- **TailwindCSS via TWRNC**: Utility-first CSS framework for fast UI development.
+- **React Navigation**: Easy navigation solutions for your apps.
+- **React Native Reanimated**: Powerful animations for smooth user experiences.
+- **React Native SVG**: SVG support for your React Native projects.
+- **React Native Dotenv**: Load environment variables from a `.env` file.
+- **Zustand and Jotai**: State management libraries for simpler state handling.
+- **MMKV**: Efficient key-value storage for React Native.
+- **React Query**: Data fetching and state synchronization for server-state.
+- **Zod**: TypeScript-first schema declaration and validation library.
+- **React Hook Forms**: Performant, flexible, and extensible forms with easy-to-use validation.
+- **Fastlane Support**: Automate building and publishing your apps to Firebase App Distribution and TestFlight.
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+<h2 id="🛠-usage">🛠 Usage</h2>
+<p>Generate a new Nx workspace with the React Native preset:</p>
+<pre><code class="language-bash">npx nx-react-native-cli@latest create
+</code></pre>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
