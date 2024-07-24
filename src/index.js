@@ -5,18 +5,12 @@ import { execSync } from 'child_process';
 import { program } from 'commander';
 import inquirer from 'inquirer';
 import ora from 'ora';
-import {
-  addScriptsInRootPackageJson,
-  copyDir,
-  copyFile,
-  executeCommand,
-  removeDir,
-} from './utils/index.js';
+import { addScriptsInRootPackageJson, copyDir, copyFile, executeCommand } from './utils/index.js';
 
 program
   .name('React Native Starter with Expo')
   .description('A starter script to create a new React Native project with Expo')
-  .version('1.0.0');
+  .version('1.0.2');
 
 program
   .command('create [app_name]')

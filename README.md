@@ -1,6 +1,6 @@
 # Expo React Native Project Generator
 
-[![npm version](https://badge.fury.io/js/nx-react-native-cli.svg)](https://www.npmjs.com/package/expo-react-native-setup-cli)
+[![npm version](https://badge.fury.io/js/expo-react-native-setup-cli.svg)](https://www.npmjs.com/package/expo-react-native-setup-cli)
 
 ## 📦 Introduction
 
