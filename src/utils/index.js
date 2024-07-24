@@ -47,8 +47,7 @@ export const addScriptsInRootPackageJson = (dir) => {
   const scripts = {
     'android:connect': 'adb reverse tcp:8081 tcp:8081',
     'list:ios-devices': 'xcrun xctrace list devices',
-    'check-env:mobile': `./check-env.sh ${dir}/.env ${dir}/.env.template'`,
-    clean: './clean-generated-outputs.sh',
+    'check-env:mobile': `./check-env.sh .env .env.template'`,
     prepare: 'husky install',
   };
 
