@@ -1,1 +1,1 @@
-export * from './BottomActionsContainer.component';
+export * from "./bottom-actions-container.component";
