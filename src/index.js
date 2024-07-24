@@ -43,12 +43,12 @@ program
 
     executeCommand(
       workspaceDirectory,
-      `npx expo install -- --save-dev husky prettier@3.3.2 @typescript-eslint/parser@6.21.0 eslint-config-airbnb-typescript@17.1.0 eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-perf eslint-plugin-sonarjs@0.25.1 @tanstack/eslint-plugin-query eslint-plugin-tailwindcss eslint-config-prettier @typescript-eslint/eslint-plugin@6.13.2 eslint-plugin-import eslint-plugin-sort-destructure-keys eslint-plugin-sort-keys-fix eslint-plugin-prettier prettier-plugin-tailwindcss eslint-import-resolver-typescript @swc-node/register@~1.8.0`,
+      `npx expo install -- --save-dev husky prettier@3.3.2 @typescript-eslint/parser@6.21.0 eslint-config-airbnb-typescript@17.1.0 eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-perf eslint-plugin-sonarjs@0.25.1 @tanstack/eslint-plugin-query eslint-plugin-tailwindcss eslint-config-prettier @typescript-eslint/eslint-plugin@6.13.2 eslint-plugin-import eslint-plugin-sort-destructure-keys eslint-plugin-sort-keys-fix eslint-plugin-prettier prettier-plugin-tailwindcss eslint-import-resolver-typescript @swc-node/register@~1.8.0 @types/lodash`,
       { stdio: 'inherit' },
     );
     executeCommand(
       workspaceDirectory,
-      `npx expo install tailwindcss twrnc react-native-keyboard-aware-scroll-view dayjs zustand jotai jotai-optics axios lodash react-hook-form react-native-url-polyfill zod zod-validation-error @gorhom/bottom-sheet @hookform/resolvers @tanstack/query-sync-storage-persister @tanstack/query-core @tanstack/react-query @tanstack/react-query-persist-client`,
+      `npx expo install tailwindcss twrnc react-native-keyboard-aware-scroll-view react-native-modal dayjs zustand jotai jotai-optics axios lodash react-hook-form react-native-url-polyfill zod zod-validation-error @gorhom/bottom-sheet @hookform/resolvers @tanstack/query-sync-storage-persister @tanstack/query-core @tanstack/react-query @tanstack/react-query-persist-client`,
       { stdio: 'inherit' },
     );
     spinner2.succeed('Dependencies sucessfully installed');
