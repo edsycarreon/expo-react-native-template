@@ -4,9 +4,18 @@
   "description": "Boilerplate for an expo react-native project",
   "main": "index.js",
   "type": "module",
+  "files": [
+    "lib",
+    "templates",
+    "README.md",
+    "package.json"
+  ],
+  "bin": {
+    "rn-expo": "./lib/index.cjs"
+  },
   "scripts": {
     "start": "node ./src/index.js",
-    "build": "rm -rf lib && esbuild src/index.js --format=cjs --platform=node --bundle --outfile=lib/index.cjs --minify --analyze",
+    "build": "rm -rf lib && esbuild src/index.js --format=cjs --inject:./src/utils/import-meta-url.js --define:import.meta.url=import_meta_url --platform=node --bundle --outfile=lib/index.cjs --minify --analyze",
     "prepublish": "npm run build",
     "example": "npx nxrn create example",
     "relink": "npm unlink nxrn && npm run prepublish && npm link",

@@ -99,7 +99,7 @@ program
     );
     console.log(
       chalk.whiteBright(`
-      - cd test-2
+      - cd ${app_name}
       - npm run android
       - npm run ios
       - npm run web
