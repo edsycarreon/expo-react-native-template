@@ -10,7 +10,7 @@ import { addScriptsInRootPackageJson, copyDir, copyFile, executeCommand } from '
 program
   .name('React Native Starter with Expo')
   .description('A starter script to create a new React Native project with Expo')
-  .version('1.0.2');
+  .version('1.0.3');
 
 program
   .command('create [app_name]')
