@@ -20,6 +20,6 @@ This NPM package provides a streamlined solution for creating Expo React Native 
 - 🚀 **Fastlane Support** (Coming soon): Automate building and publishing your apps to Firebase App Distribution and TestFlight.
 
 <h2 id="🛠-usage">🛠 Usage</h2>
-<p>Generate a new Nx workspace with the React Native preset:</p>
+<p>Generate a new Expo React Native Project:</p>
 <pre><code class="language-bash">npx expo-react-native-setup-cli create [app-name]
 </code></pre>
