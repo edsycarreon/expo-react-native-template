@@ -1,6 +1,6 @@
 {
   "name": "expo-react-native-setup-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Boilerplate for an expo react-native project",
   "main": "index.js",
   "type": "module",
