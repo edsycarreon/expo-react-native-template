@@ -10,7 +10,7 @@ import { addScriptsInRootPackageJson, copyDir, copyFile, executeCommand } from '
 program
   .name('React Native Starter with Expo')
   .description('A starter script to create a new React Native project with Expo')
-  .version('1.0.5');
+  .version('1.0.6');
 
 program
   .command('create [app_name]')
@@ -34,7 +34,7 @@ program
     console.log(chalk.green(`Creating Expo project in ${workspaceDirectory}!`));
     const spinner1 = ora().start('Creating Expo workspace');
 
-    execSync(`cd ${currentPwd} && npx create-expo-app ${app_name} --template default@sdk-51`, {
+    execSync(`cd ${currentPwd} && npx create-expo-app ${app_name} --template default@sdk-52`, {
       stdio: 'inherit',
     });
     spinner1.succeed('Expo project created');
